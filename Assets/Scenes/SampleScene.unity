@@ -635,6 +635,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6188ab3001d5dd47ae3e00d76b533fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EmptyScript
+  Tiempo: 0
+  segundos: 0
+  terminado: 0
+  duracion: 10
+  segundosRestantes: 10
+  numerosPares: 0000000000000000000000000000000000000000
+  posicionArray: 0
 --- !u!1 &504527844
 GameObject:
   m_ObjectHideFlags: 0
@@ -983,6 +990,7 @@ GameObject:
   - component: {fileID: 693711067}
   - component: {fileID: 693711066}
   - component: {fileID: 693711065}
+  - component: {fileID: 693711069}
   m_Layer: 0
   m_Name: Cubo1
   m_TagString: Untagged
@@ -1083,6 +1091,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &693711069
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 693711064}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &747191407
 GameObject:
   m_ObjectHideFlags: 0
@@ -2279,6 +2314,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5326053e609718847b01e732f161c7a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
+  segundos: 0
+  tiempo: 0
+  duracion: 10
+  terminado: 0
+  segundosRestantes: 10
+  cuentaRegresivaMostrada: 0
+  segundosPares: 0000000000000000000000000000000000000000
+  posicionArray: 0
 --- !u!1 &1970912249
 GameObject:
   m_ObjectHideFlags: 0

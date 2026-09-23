@@ -1,4 +1,4 @@
-using System;
+/*using System;
 using UnityEngine;
 
 public class EmptyScript : MonoBehaviour
@@ -81,4 +81,4 @@ public class EmptyScript : MonoBehaviour
             Debug.Log("Par: " + numerosPares[i]);
         }
     }
-}
+}*/

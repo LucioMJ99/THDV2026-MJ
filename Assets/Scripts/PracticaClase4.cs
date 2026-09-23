@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 
 public class Ejercicio_Timer : MonoBehaviour
 {
@@ -70,7 +70,7 @@ public class Ejercicio_Timer : MonoBehaviour
     // EJERCICIOS N3 AL N8
     // ------------------------------------------------------------
 
-    void Update()
+    /*void Update()
     {
         // Dejar solamente una llamada sin comentar.
 
@@ -307,4 +307,4 @@ public class Ejercicio_Timer : MonoBehaviour
             i++;
         }
     }
-}
+}*/
